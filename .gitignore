@@ -1,0 +1,16 @@
+# Ignore node modules
+**/node_modules/
+# Ignore build outputs
+**/dist/
+**/build/
+# Ignore .env and system-specific files
+.env
+.DS_Store
+*.log
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+# Ignore Tailwind/PostCSS/Vite caches (optional)
+.postcssrc
+tailwind.config.js
+vite.config.js
